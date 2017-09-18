@@ -7,6 +7,15 @@
         p {
             margin-bottom: 0;
         }
+        
+        @media print {            
+            @page {
+                margin: 5px;                
+            }
+            html {
+                font-size: 11pt;
+            }
+        }
     </style>
     <head>
        <div class="container-fluid">
